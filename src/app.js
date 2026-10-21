@@ -11,6 +11,8 @@ app.use("/user",(req,res)=>{
     res.send("HAHAHAAAAHAAA");
 });
 
+
+// req/user , /user/xyz , /user/123
 app.get("/user",(req,res)=>{
     res.send({
         firstname:"Akshay",
